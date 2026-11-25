@@ -1,0 +1,196 @@
+{
+  "sst2": {
+    "repo": "nyu-mll/glue",
+    "revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+    "classes": 2,
+    "files": [
+      {
+        "file": "sst2/train-00000-of-00001.parquet",
+        "split": "train",
+        "sha256": "66a253e67968acfabcbe49dbe9da964b42ac1c851c40ab760e8c8942efdb3229"
+      },
+      {
+        "file": "sst2/validation-00000-of-00001.parquet",
+        "split": "validation",
+        "sha256": "a1371f3b3a7b0bcefa8388799a9359dc3ce76c349cc0079507a7991364fd2a9b"
+      }
+    ],
+    "splits": {
+      "train": {
+        "count": 67349,
+        "records_sha256": "f45630054c250cfde667f71a4336d88613e7bd2e860896fa629d68f27f83f67f"
+      },
+      "validation": {
+        "count": 872,
+        "records_sha256": "e65dd602a24ca8a49a5bf587d5e4fa59752f0ba5f23686b988c6c5ce182f1df7"
+      }
+    }
+  },
+  "rte": {
+    "repo": "aps/super_glue",
+    "revision": "3de24cf8022e94f4ee4b9d55a6f539891524d646",
+    "classes": 2,
+    "files": [
+      {
+        "file": "rte/train-00000-of-00001.parquet",
+        "split": "train",
+        "sha256": "16c83717da2e5b14cfd75e88b6331ac88d8cbf8f4fcd8bc48941c67ac8e9b3a9"
+      },
+      {
+        "file": "rte/validation-00000-of-00001.parquet",
+        "split": "validation",
+        "sha256": "b3740aac80522a9a86e9d926287b813531eeabdead967399b1fd899c640fac76"
+      }
+    ],
+    "splits": {
+      "train": {
+        "count": 2490,
+        "records_sha256": "36fc84e89e9b434076055dca7db67c055f21ab5315607083523720e74bb99bb1"
+      },
+      "validation": {
+        "count": 277,
+        "records_sha256": "646a3db1cf3ccb80cbb500f6ad69f2f49422e54f9e3050bcea0fed39067cf9f6"
+      }
+    }
+  },
+  "cola": {
+    "repo": "nyu-mll/glue",
+    "revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+    "classes": 2,
+    "files": [
+      {
+        "file": "cola/train-00000-of-00001.parquet",
+        "split": "train",
+        "sha256": "2e7538afa2000e63f5343f16a758d75c452661a384208399d2035cd2fce45c33"
+      },
+      {
+        "file": "cola/validation-00000-of-00001.parquet",
+        "split": "validation",
+        "sha256": "c14b7219a7d9f9fe3dd291fd000f6623ee413805eb108c9c49578ed50873e4ba"
+      }
+    ],
+    "splits": {
+      "train": {
+        "count": 8535,
+        "records_sha256": "c37e4d6ab8a6b0ceff7033f8f0990f7e5cab40d15606fa472f84dc9fd1bbb56b"
+      },
+      "validation": {
+        "count": 1043,
+        "records_sha256": "e324203931004a543668d9d59ba5c0340298ae7927ebcf8fb7eff49be8ea9d68"
+      }
+    }
+  },
+  "cr": {
+    "repo": "SetFit/CR",
+    "revision": "01e427e689e9d3a9097f85eab7a91ce937cf5f98",
+    "classes": 2,
+    "files": [
+      {
+        "file": "train.jsonl",
+        "split": "train",
+        "sha256": "d3dd784ef9d13e296439b7ccbabee5eb52590805fe3dd2a2ae24d265c0acd080"
+      },
+      {
+        "file": "test.jsonl",
+        "split": "test",
+        "sha256": "d50ecbeafbb9f29bdb7fb36c1d5a3583680949cd94b6897ce2a631289e91908b"
+      }
+    ],
+    "splits": {
+      "train": {
+        "count": 3394,
+        "records_sha256": "1cc26b3dc52ac94c8ba93ff72c3f4827917361ade1bd921ca7b0fcac45e2d5c6"
+      },
+      "validation": {
+        "count": 376,
+        "records_sha256": "5ae4d8d69cde493898a81f2bd5b6dacb8cacd02ba1b6aca9e975b56c04002186"
+      }
+    }
+  },
+  "subj": {
+    "repo": "SetFit/subj",
+    "revision": "f3c1162e678417f664d76b21864fdb87b0615fcf",
+    "classes": 2,
+    "files": [
+      {
+        "file": "train.jsonl",
+        "split": "train",
+        "sha256": "2bf604a266b0c8511313ecee1e833661eadb71174bf6f5c193bd6e5907694bf7"
+      },
+      {
+        "file": "test.jsonl",
+        "split": "test",
+        "sha256": "d8fafc2b8d3a3b25f8db737915acece988421ee2d2461080f926ceab26ff96f6"
+      }
+    ],
+    "splits": {
+      "train": {
+        "count": 8000,
+        "records_sha256": "67bce1b1ddef234a7fa02200e31b6377ea8ff74ca498eb04d3ccbfee76963838"
+      },
+      "validation": {
+        "count": 2000,
+        "records_sha256": "e1280d7384cd3f00b39328fdc2c8aef91fd4f679bb726a7fa82cbb6a1560a1b8"
+      }
+    }
+  },
+  "trec": {
+    "repo": "SetFit/TREC-QC",
+    "revision": "0a34640b3cac3affef6f0abdfb81e3d0ecffcf92",
+    "classes": 6,
+    "files": [
+      {
+        "file": "train.jsonl",
+        "split": "train",
+        "sha256": "2ccf359da160a8e461c4d85cc4b20aafe5defc3175489fc4f93e9ede20f0f215"
+      },
+      {
+        "file": "test.jsonl",
+        "split": "test",
+        "sha256": "fafc3f4576ccfb08a8d8e95a3a93041ebf61deaa8a020e26963617f171bdc6e6"
+      }
+    ],
+    "splits": {
+      "train": {
+        "count": 5441,
+        "records_sha256": "f04d9b76ff7c10e06d069297c4aa9041c4f8d5dc52c67c736618de6fe8316f8f"
+      },
+      "validation": {
+        "count": 500,
+        "records_sha256": "89c6b82006ae70290bdbbed8fb10c94c25413f3283b039e4776ed25ec29945f6"
+      }
+    }
+  },
+  "mnli": {
+    "repo": "nyu-mll/glue",
+    "revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+    "classes": 3,
+    "files": [
+      {
+        "file": "mnli/train-00000-of-00001.parquet",
+        "split": "train",
+        "sha256": "49a4a5508b89b8fed2c6e81d2c47d00f4759050a7048c6cc5d95d31122ced3c1"
+      },
+      {
+        "file": "mnli/validation_matched-00000-of-00001.parquet",
+        "split": "matched",
+        "sha256": "7f918c09d9c35446b8e8f06a5672f8ab704e2897fecbf52e2e154141f3d7c421"
+      },
+      {
+        "file": "mnli/validation_mismatched-00000-of-00001.parquet",
+        "split": "mismatched",
+        "sha256": "04aba92823a954be36fe1b69b61eed334c9eb1009daba0dd79f69d77b87c535c"
+      }
+    ],
+    "splits": {
+      "train": {
+        "count": 392702,
+        "records_sha256": "01e81383106a65f02ba71cbda26f91e1303f106fecf5175a33aa4d6dd8f22e35"
+      },
+      "validation": {
+        "count": 19647,
+        "records_sha256": "aa6104121130d69076ab5db2fefe4c4337b34cb4e8d66731a72761e00c27e310"
+      }
+    }
+  }
+}
